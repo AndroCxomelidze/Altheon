@@ -1,0 +1,155 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff8e7; /* ღია ოქროსფერი */
+    color: #444;
+    line-height: 1.6;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+
+}
+
+/* Hero Page Container */
+.hero-page {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2a220c; /* ოქროსფერი ნათება */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(247, 202, 107, 0.5);
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 26px;
+    color: #b38422; /* მუქი ოქროსფერი */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+
+}
+
+/* Hero Photo */
+.hero-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #f9d77e; /* ოქროსფერი საზღვარი */
+    box-shadow: 0 4px 8px rgba(247, 202, 107, 0.4);
+    margin-bottom: 20px;
+}
+
+/* Hero Info */
+.hero-info {
+    margin-bottom: 20px;
+    background-color: #fff2c3; /* ნაზი ოქროსფერი ჩრდილი */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(247, 202, 107, 0.3);
+}
+
+.hero-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #b38422; /* მუქი ოქროსფერი */
+    text-decoration: underline;
+}
+
+.hero-info p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Hero Abilities */
+.hero-abilities {
+    margin-bottom: 20px;
+    background-color: #fff5d7;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(247, 202, 107, 0.3);
+}
+
+.hero-abilities h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #b38422;
+}
+
+
+
+
+
+
+/* Hero Powers */
+.hero-powers {
+    background-color: #fff2c3;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(247, 202, 107, 0.3);
+}
+
+.hero-powers h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #b38422;
+}
+
+.hero-powers p {
+    font-size: 14px;
+    color: #444;
+}
+
+.hero-video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(247, 202, 107, 0.4);
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+    padding: 6px;
+    background: #fff2c3; 
+    box-shadow: 0 2px 6px rgba(184, 159, 77, 0.5);
+
+    border-radius: 5px;
+    border-left: 4px solid #ffc800; /* ცისფერი საზღვარი */
+}
+
+/* Responsiveness */
+@media screen and (max-width: 320px) {
+    .hero-page {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    .hero-info h2,
+    .hero-abilities h2,
+    .hero-powers h2 {
+        font-size: 18px;
+    }
+
+    .hero-info p,
+    .hero-powers p,
+    .hero-abilities li {
+        font-size: 13px;
+    }
+}
+
+
